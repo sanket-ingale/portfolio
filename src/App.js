@@ -1,12 +1,12 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import MainContent from './components/MainContent';
+import MainContent from './components/main-content/MainContent';
 
 export default function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <div className="top"></div>
       <MainContent/>
+      <div className="backToTop"></div>
     </div>
   );
 }
