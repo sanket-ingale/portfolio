@@ -24,7 +24,7 @@ export default function App() {
       />
       <Header/>
         <Routes>
-          <Route path='/portfolio' element={<Work/>}/>
+          <Route path='/portfolio/' element={<Work/>}/>
           <Route path='/portfolio/about' element={<About/>}/>
         </Routes>
       <Footer/>
