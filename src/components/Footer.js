@@ -6,7 +6,7 @@ export default function Footer() {
       <img src={require('../images/hexagons.png')} alt='hex'/>
       <div className='footer--right'>
         <div className='name'>Sanket Ingale</div>
-        <span>Pune (MH), India</span>
+        <span>+91 9404 26 4995 | Pune (MH), India</span>
         <div className='links'>
           <a target='blank' href='https://www.linkedin.com/in/sanket-ingale1998/'>LinkedIn</a>
           <a target='blank' href='https://github.com/sanket-ingale'>Github</a>
