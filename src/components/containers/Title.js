@@ -8,7 +8,7 @@ export default function Title() {
         I'm a Frontend Developer.
       </span>
       <p>
-        I have 1.5 years of experience in Web Designing and User Interface Development
+        ~2 years of experience in Web Designing and User Interface Development.
         <br/>An expert in Responsive Web Design.
         <br/>Proficienct in code optimization for improved performance.
       </p>
