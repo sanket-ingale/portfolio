@@ -1,0 +1,84 @@
+.work{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15vh 0;
+}
+
+.data--card{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 10% 40% 25%;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+    border-bottom: 1px solid #000;
+}
+
+.data--card > img,iframe{
+    margin: 1vw;
+    padding: 0;
+    border-radius: 1vw;
+    box-shadow: 0 0 2vw 1vw #0007;
+    /* border: 5px solid #000; */
+    width: 100%;
+    grid-column: 3 / 3;
+    grid-row: 1 / span 3;
+}
+
+.card--id{
+    font-size: 2rem;
+    border-bottom: 1px solid #000;
+}
+
+.card--title{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card--desc{
+    line-height: 5vh;
+    grid-column: 1 / span 2;
+}
+
+.data--card > a{
+    grid-column: 1 / span 2;
+}
+
+.data--card > * {
+    padding: 1vw;
+}
+
+
+@media screen and (max-width: 600px) {
+    .data--card{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5vh 0;
+        gap: 3vh;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .data--card > img,iframe{
+        width: 60%;
+        border-radius: 5vw;
+    }
+    .container{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px)  {
+    .data--card{
+        width: 80%;
+    }
+}

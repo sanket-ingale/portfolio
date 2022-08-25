@@ -1,7 +1,23 @@
-.backToTop{
-    height: 30px;
-    width: 30px;
-    background-color: brown;
-    position: fixed;
-    right: 50px;
+.app{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#hex{
+    position: fixed;
+    top: 4vh;
+    left: 2vw;
+    height: 8vh;
+    transform: rotate(40deg);
+}
+
+@media screen and (max-width: 500px) {
+    #hex{
+        position: absolute;
+        left: 8vw;
+    }
+}
+
+

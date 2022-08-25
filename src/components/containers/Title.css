@@ -1,0 +1,36 @@
+.title{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 15vh 2vw;
+    gap: 5vh;
+    border-bottom: 1px solid #000;
+    animation: fadein 1s;
+}
+
+.title span{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.title p{
+    font-size: 1.2rem;
+    line-height: 4vh;
+}
+
+@media screen and (max-width: 500px) {
+    .title{
+        width: 90%;
+        padding: 5vh 2vw;
+    }
+    .title span{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px)  {
+    .title{
+        width: 80%;
+    }
+}

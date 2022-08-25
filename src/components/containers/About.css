@@ -1,0 +1,108 @@
+.about{
+    width: 50%;
+    padding: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    animation: fadein 1s;
+}
+
+.about > span{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.row--one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    font-size: 1.2rem;
+    padding: 2vh;
+}
+
+.row--one > p{
+    padding-right: 2vw;
+    line-height: 4vh;
+    border-right: 1px dashed #000;
+}
+
+.row--one img{
+    height: 30vh;
+    border-radius: 2rem;
+}
+
+.row--two{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    border-top: 1px solid #000;
+    padding-top: 5vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 5vh 1vw;
+    border-bottom: 1px solid #000;
+}
+
+.info--title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.info--desc{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 4vh;
+}
+
+.info--desc > *{
+    position: relative;
+    padding-left: 4vw;
+}
+.info--desc > *::after{
+    content: '';
+    position: absolute;
+    left: 3vw;
+    top: 25%;
+    justify-content: center;
+    height: 2vh;
+    width: 0.5vw;
+    background-color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    .about{
+        width: 90%;
+    }
+    .row--one {
+        flex-direction: column-reverse;
+        gap: 5vh;
+    }
+    .row--one img{
+        height: 30vh
+    }
+    .row--one > p{
+        padding-top: 5vh;
+        border-right: none;
+        border-top: 1px dashed #000;
+    }
+    .info--desc > *{
+        padding-left: 8vw;
+    }
+    .info--desc > *::after{
+        width: 1vw;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px)  {
+    .about{
+        width: 75%;
+    }
+}
