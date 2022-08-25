@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.75fef92b.css",
-    "main.js": "/portfolio/static/js/main.ec59302a.js",
-    "static/media/video1.gif": "/portfolio/static/media/video1.a4887afc61dfb91adbb4.gif",
-    "static/media/gradient.png": "/portfolio/static/media/gradient.e97311700f865cc307ab.png",
-    "static/media/dp.png": "/portfolio/static/media/dp.7722f5fc0c08be0c08d7.png",
-    "static/media/hexagons.png": "/portfolio/static/media/hexagons.f2fa6e7c5c5316195b9c.png",
-    "index.html": "/portfolio/index.html",
-    "main.75fef92b.css.map": "/portfolio/static/css/main.75fef92b.css.map",
-    "main.ec59302a.js.map": "/portfolio/static/js/main.ec59302a.js.map"
+    "main.css": "/portfolio-sanket/static/css/main.2059698f.css",
+    "main.js": "/portfolio-sanket/static/js/main.53abce7a.js",
+    "static/media/video1.gif": "/portfolio-sanket/static/media/video1.a4887afc61dfb91adbb4.gif",
+    "static/media/gradient.png": "/portfolio-sanket/static/media/gradient.e97311700f865cc307ab.png",
+    "static/media/dp.png": "/portfolio-sanket/static/media/dp.7722f5fc0c08be0c08d7.png",
+    "static/media/hexagons.png": "/portfolio-sanket/static/media/hexagons.f2fa6e7c5c5316195b9c.png",
+    "index.html": "/portfolio-sanket/index.html",
+    "main.2059698f.css.map": "/portfolio-sanket/static/css/main.2059698f.css.map",
+    "main.53abce7a.js.map": "/portfolio-sanket/static/js/main.53abce7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.75fef92b.css",
-    "static/js/main.ec59302a.js"
+    "static/css/main.2059698f.css",
+    "static/js/main.53abce7a.js"
   ]
 }
