@@ -33,6 +33,11 @@
     grid-row: 1 / span 3;
 }
 
+#wide{
+    width: 160%;
+    border-radius: 1vh;
+}
+
 .card--id{
     font-size: 2rem;
     border-bottom: 1px solid #000;
@@ -71,6 +76,10 @@
     .data--card > img,iframe{
         width: 60%;
         border-radius: 5vw;
+    }
+    #wide{
+        width: 100%;
+        border-radius: 1vh;
     }
     .container{
         padding: 0;
