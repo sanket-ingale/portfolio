@@ -10,7 +10,7 @@ export default function Title() {
       <p>
         ~2 years of experience in Web Designing and User Interface Development.
         <br/>An expert in Responsive Web Design.
-        <br/>Proficienct in code optimization for improved performance.
+        <br/>Proficient in code optimization for improved performance.
       </p>
     </div>
   );
