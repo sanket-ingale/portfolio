@@ -1,6 +1,6 @@
 import './App.css';
-import { useState } from 'react';
-import {Routes, Route} from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import {Routes, Route, useNavigate, useLocation} from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer'
 import Work from './components/containers/Work';
@@ -8,9 +8,18 @@ import About from './components/containers/About';
 
 export default function App() {
 
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const [angle, setAngle] = useState(0);
 
   window.onscroll = () => setAngle(prevState => window.scrollY / 10);
+
+  useEffect(() => {
+    if(location.pathname !== "/" || location.pathname !== "/about") {
+      navigate("/");
+    }
+  }, [location]);
 
   return (
     <div className="app">

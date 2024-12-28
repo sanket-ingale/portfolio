@@ -4,8 +4,8 @@ import './Header.css';
 export default function Header() {
   return (
     <div className="header">
-      <CustomLink to='/portfolio/'>Work</CustomLink>
-      <CustomLink to='/portfolio/about'>About</CustomLink>
+      <CustomLink to='/'>Work</CustomLink>
+      <CustomLink to='/about'>About</CustomLink>
     </div>
   );
 }
