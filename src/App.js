@@ -24,8 +24,8 @@ export default function App() {
       />
       <Header/>
         <Routes>
-          <Route path='/portfolio/' element={<Work/>}/>
-          <Route path='/portfolio/about' element={<About/>}/>
+          <Route path='/' element={<Work/>}/>
+          <Route path='/about' element={<About/>}/>
         </Routes>
       <Footer/>
     </div>
