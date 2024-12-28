@@ -16,7 +16,7 @@ export default function App() {
   window.onscroll = () => setAngle(prevState => window.scrollY / 10);
 
   useEffect(() => {
-    if(location.pathname !== "/" || location.pathname !== "/about") {
+    if(location.pathname !== "/" && location.pathname !== "/about") {
       navigate("/");
     }
   }, [location]);
