@@ -33,12 +33,14 @@
     gap: 2vw;
 }
 
-.links *{
+.links *,
+.tel {
     text-decoration: none;
     color: black;
 }
 
-.links *:hover{
+.links *:hover,
+.tel:hover {
     color: brown;
 }
 
