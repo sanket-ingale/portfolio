@@ -8,9 +8,7 @@ export default function Title() {
         I'm a Frontend Developer.
       </span>
       <p>
-        ~2 years of experience in Web Designing and User Interface Development.
-        <br/>An expert in Responsive Web Design.
-        <br/>Proficient in code optimization for improved performance.
+      With 4+ years of experience, I specialize in designing scalable web and mobile applications using modern frontend frameworks like React and VueJS. I've worked across industries such as logistics, agritech, and AI, delivering solutions tailored to unique needs. I thrive on building user-focused applications and collaborating with diverse teams to bring ideas to life.
       </p>
     </div>
   );
